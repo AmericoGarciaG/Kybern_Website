@@ -57,7 +57,7 @@ export function ProblemSection() {
                             </CardHeader>
                             <CardContent className="text-center">
                                 <p className="text-slate-700 font-medium leading-relaxed">
-                                    Una arquitectura de precisión. Aceptamos la 'Caja Negra', pero la <span className="text-slate-900 font-bold">gobernamos con un Libro de Lógica inmutable.</span> La IA ejecuta la implementación, pero jamás se desvía de la intención del negocio.
+                                    Una arquitectura de precisión. Aceptamos la &apos;Caja Negra&apos;, pero la <span className="text-slate-900 font-bold">gobernamos con un Libro de Lógica inmutable.</span> La IA ejecuta la implementación, pero jamás se desvía de la intención del negocio.
                                 </p>
                             </CardContent>
                         </Card>
