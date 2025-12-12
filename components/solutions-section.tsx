@@ -12,6 +12,7 @@ const solutions = [
         description: "Instale un nuevo sistema operativo mental. Elevamos a sus equipos de usuarios pasivos a Arquitectos de Sistemas capaces de definir y gobernar la IA, eliminando el miedo operativo.",
         icon: Brain,
         color: "bg-blue-100 text-blue-600",
+        link: "/ingenieria-cognitiva"
     },
     {
         phase: "Fase 2",
@@ -61,21 +62,47 @@ export function SolutionsSection() {
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.5, delay: index * 0.1 }}
                             >
-                                <Card className="h-full border-slate-200 hover:border-slate-300 hover:shadow-md transition-all group">
-                                    <CardHeader>
-                                        <div className={`w-12 h-12 rounded-lg flex items-center justify-center mb-4 ${item.color} group-hover:scale-110 transition-transform`}>
-                                            <Icon className="w-6 h-6" />
-                                        </div>
-                                        <div className="text-sm font-semibold text-slate-400 mb-1 tracking-wider uppercase">{item.phase}</div>
-                                        <CardTitle className="text-xl text-slate-900 group-hover:text-green-600 transition-colors">{item.title}</CardTitle>
-                                    </CardHeader>
-                                    <CardContent>
-                                        <h4 className="font-semibold text-slate-700 mb-2">{item.subtitle}</h4>
-                                        <p className="text-sm text-slate-600 leading-relaxed">
-                                            {item.description}
-                                        </p>
-                                    </CardContent>
-                                </Card>
+                                {/* Conditional Rendering for Link */}
+                                {item.link ? (
+                                    <a href={item.link} className="block h-full">
+                                        <Card className="h-full border-slate-200 hover:border-green-400 hover:shadow-lg transition-all group cursor-pointer relative top-0 hover:-top-1">
+                                            <CardHeader>
+                                                <div className={`w-12 h-12 rounded-lg flex items-center justify-center mb-4 ${item.color} group-hover:scale-110 transition-transform`}>
+                                                    <Icon className="w-6 h-6" />
+                                                </div>
+                                                <div className="text-sm font-semibold text-slate-400 mb-1 tracking-wider uppercase">{item.phase}</div>
+                                                <CardTitle className="text-xl text-slate-900 group-hover:text-green-600 transition-colors flex items-center gap-2">
+                                                    {item.title}
+                                                </CardTitle>
+                                            </CardHeader>
+                                            <CardContent>
+                                                <h4 className="font-semibold text-slate-700 mb-2">{item.subtitle}</h4>
+                                                <p className="text-sm text-slate-600 leading-relaxed">
+                                                    {item.description}
+                                                </p>
+                                                <p className="mt-4 text-xs font-bold text-green-600 uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                                                    Ver Tracks y Temario →
+                                                </p>
+                                            </CardContent>
+                                        </Card>
+                                    </a>
+                                ) : (
+                                    <Card className="h-full border-slate-200 hover:border-slate-300 hover:shadow-md transition-all group">
+                                        <CardHeader>
+                                            <div className={`w-12 h-12 rounded-lg flex items-center justify-center mb-4 ${item.color} group-hover:scale-110 transition-transform`}>
+                                                <Icon className="w-6 h-6" />
+                                            </div>
+                                            <div className="text-sm font-semibold text-slate-400 mb-1 tracking-wider uppercase">{item.phase}</div>
+                                            <CardTitle className="text-xl text-slate-900 group-hover:text-green-600 transition-colors">{item.title}</CardTitle>
+                                        </CardHeader>
+                                        <CardContent>
+                                            <h4 className="font-semibold text-slate-700 mb-2">{item.subtitle}</h4>
+                                            <p className="text-sm text-slate-600 leading-relaxed">
+                                                {item.description}
+                                            </p>
+                                        </CardContent>
+                                    </Card>
+                                )}
                             </motion.div>
                         );
                     })}
