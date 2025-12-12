@@ -21,7 +21,7 @@ export function ManifestoSection() {
                         El Futuro es Dirigido
                     </h2>
                     <p className="text-lg md:text-2xl font-light leading-relaxed text-slate-300 font-serif italic">
-                        &quot;Estamos presenciando el fin de la era del programador como &apos;mecanógrafo de código&apos; y el nacimiento del Ingeniero como Director de Sistemas. En Kybern, no somos aceleracionistas ciegos ni luditas temerosos. Somos ingenieros. Creemos que el futuro pertenece a quien gobierne mejor su lógica. Bienvenido a la Era de la Arquitectura de Precisión.&quot;
+                        &quot;Estamos presenciando el fin de la era del programador como &apos;mecanógrafo de código&apos; y el nacimiento del Ingeniero como Director de Sistemas. En Kybern AI, no confundimos la innovación con la improvisación. Somos ingenieros. Creemos que el futuro no pertenece a quien genere más código, sino a quien defina mejor su arquitectura y gobierne la ejecución con precisión absoluta. Bienvenido a la Era de la Arquitectura de Precisión.&quot;
                     </p>
                 </motion.div>
             </div>

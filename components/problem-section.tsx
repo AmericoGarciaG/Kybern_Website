@@ -32,7 +32,7 @@ export function ProblemSection() {
                             </CardHeader>
                             <CardContent className="text-center">
                                 <p className="text-slate-600 leading-relaxed">
-                                    Experimentación rápida, alucinaciones en producción y código &quot;caja negra&quot; que nadie entiende ni puede mantener. Deuda técnica acumulada desde el día cero.
+                                    La ilusión de velocidad. Al auditar el código, se descubre que incumple las reglas de negocio críticas. El resultado inevitable: <span className="text-slate-900 font-bold">descartar el trabajo de la IA y reescribir manualmente.</span>
                                 </p>
                             </CardContent>
                         </Card>
@@ -57,7 +57,7 @@ export function ProblemSection() {
                             </CardHeader>
                             <CardContent className="text-center">
                                 <p className="text-slate-700 font-medium leading-relaxed">
-                                    Una arquitectura de precisión donde el humano define el <span className="text-slate-900 font-bold">Qué</span> (Lógica) y la máquina resuelve el <span className="text-slate-900 font-bold">Cómo</span> (Implementación), bajo estricta vigilancia forense.
+                                    Una arquitectura de precisión. Aceptamos la 'Caja Negra', pero la <span className="text-slate-900 font-bold">gobernamos con un Libro de Lógica inmutable.</span> La IA ejecuta la implementación, pero jamás se desvía de la intención del negocio.
                                 </p>
                             </CardContent>
                         </Card>

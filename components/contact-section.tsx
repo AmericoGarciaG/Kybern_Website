@@ -38,7 +38,7 @@ export function ContactSection() {
                         Recupere el Control de su Futuro Tecnológico
                     </h2>
                     <p className="text-lg text-slate-600">
-                        Hable con un Arquitecto Lógico y descubra cómo escalar con verdadera gobernanza.
+                        Hable con un Arquitecto Logic-First y descubra cómo escalar con verdadera gobernanza.
                     </p>
                 </div>
 

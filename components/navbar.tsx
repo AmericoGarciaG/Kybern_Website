@@ -41,7 +41,7 @@ export function Navbar() {
                         K
                     </div>
                     <span className="text-xl font-bold tracking-tight text-slate-900">
-                        Kybern<span className="text-green-600">AI</span>
+                        Kybern <span className="text-green-600">AI</span>
                     </span>
                 </Link>
 
@@ -57,7 +57,7 @@ export function Navbar() {
                         </Link>
                     ))}
                     <Button variant="kybernAccent" size="sm" asChild>
-                        <Link href="#contact">Auditoría Lógica</Link>
+                        <Link href="#contact">Auditoría Logic-First</Link>
                     </Button>
                 </div>
 
@@ -84,7 +84,7 @@ export function Navbar() {
                         </Link>
                     ))}
                     <Button variant="kybernPrimary" className="w-full">
-                        Auditoría Lógica
+                        Auditoría Logic-First
                     </Button>
                 </div>
             )}

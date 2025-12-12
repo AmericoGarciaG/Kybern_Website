@@ -18,7 +18,7 @@ export function HeroSection() {
                     transition={{ duration: 0.5 }}
                 >
                     <Badge variant="kybern" className="mb-8 px-4 py-1 text-sm tracking-wide uppercase">
-                        Ingeniería de IA Gobernarda
+                        Kabern AI Corp.
                     </Badge>
                 </motion.div>
 
@@ -28,9 +28,9 @@ export function HeroSection() {
                     transition={{ duration: 0.5, delay: 0.1 }}
                     className="text-5xl md:text-7xl font-bold tracking-tight text-slate-900 mb-6 leading-[1.1]"
                 >
-                    No implementamos IA. <br className="hidden md:block" />
+                    Arquitectura, Ingeniería <br className="hidden md:block" />
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 to-slate-700">
-                        Instalamos Gobernanza.
+                        y Gobierno de IA.
                     </span>
                 </motion.h1>
 
@@ -40,7 +40,7 @@ export function HeroSection() {
                     transition={{ duration: 0.5, delay: 0.2 }}
                     className="text-lg md:text-xl text-slate-600 mb-10 max-w-3xl leading-relaxed"
                 >
-                    La mayoría de las empresas operan bajo el &quot;Vibe Coding&quot;, acumulando deuda técnica silenciosa. En Kybern, transformamos la fuerza bruta de los LLMs en <strong className="font-semibold text-slate-900">Sistemas Generativos Deterministas</strong> y precisión industrial.
+                    Construimos ecosistemas de IA con solvencia técnica y gobernanza absoluta. Transformamos la fuerza bruta de los LLMs en precisión industrial, eliminando la deuda técnica del &quot;Vibe Coding&quot;.
                 </motion.p>
 
                 <motion.div
@@ -55,7 +55,7 @@ export function HeroSection() {
                     </Button>
                     <Button variant="kybernOutline" size="lg" className="h-12 px-8 text-base">
                         <Activity className="mr-2 w-4 h-4 text-green-600" />
-                        Audite su Madurez Lógica
+                        Audite su Madurez Logic-First
                     </Button>
                 </motion.div>
             </div>

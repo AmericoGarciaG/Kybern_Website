@@ -7,9 +7,9 @@ import { Brain, Factory, Cpu, Network, Database } from "lucide-react";
 const solutions = [
     {
         phase: "Fase 1",
-        title: "Habilitación",
+        title: "Talento y Adopción",
         subtitle: "Ingeniería Cognitiva",
-        description: "Tracks para Líderes (Traductores Sistémicos), Técnicos (Arquitectos Lógicos) y Creativos (Exploradores Intuitivos).",
+        description: "Instale un nuevo sistema operativo mental. Elevamos a sus equipos de usuarios pasivos a Arquitectos de Sistemas capaces de definir y gobernar la IA, eliminando el miedo operativo.",
         icon: Brain,
         color: "bg-blue-100 text-blue-600",
     },
@@ -23,9 +23,9 @@ const solutions = [
     },
     {
         phase: "Fase 3",
-        title: "Sistemas Generativos",
-        subtitle: "Activos Estratégicos",
-        description: "Sistemas RAG Deterministas (Cero alucinaciones), Agentes Autónomos Orquestados, Precision AI & Neuro-Evolución.",
+        title: "Soluciones de IA Corporativa",
+        subtitle: "Activos que no improvisan",
+        description: "Implemente sistemas que obedecen. Desde asistentes con Tasa de Alucinación Cero (RAG Determinista) hasta agentes autónomos que ejecutan procesos complejos bajo reglas de negocio estrictas.",
         icon: Cpu,
         color: "bg-purple-100 text-purple-600",
     },
