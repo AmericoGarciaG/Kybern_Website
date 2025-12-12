@@ -10,7 +10,7 @@ export function Footer() {
                         <div className="w-6 h-6 bg-slate-800 rounded-sm flex items-center justify-center text-white font-bold text-sm group-hover:bg-slate-700 transition-colors">
                             K
                         </div>
-                        <span className="text-lg font-bold text-white tracking-tight">Kybern<span className="text-green-600">AI</span></span>
+                        <span className="text-lg font-bold text-white tracking-tight">Kybern <span className="text-green-600">AI</span></span>
                     </Link>
                     <p className="text-sm">De la Caja Negra a la Arquitectura de Precisión.</p>
                 </div>

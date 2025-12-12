@@ -55,7 +55,7 @@ export function ContactSection() {
                                 <Label htmlFor="name" className="text-slate-900 font-medium">Nombre Completo</Label>
                                 <Input
                                     id="name"
-                                    placeholder="Ej. Ana García"
+                                    placeholder="Ej. Jason Galaviz"
                                     className="bg-white"
                                     value={formState.name}
                                     onChange={(e) => setFormState({ ...formState, name: e.target.value })}
@@ -80,7 +80,7 @@ export function ContactSection() {
                             <Input
                                 id="email"
                                 type="email"
-                                placeholder="ana@empresa.com"
+                                placeholder="json@empresa.com"
                                 className="bg-white"
                                 value={formState.email}
                                 onChange={(e) => setFormState({ ...formState, email: e.target.value })}
@@ -115,7 +115,7 @@ export function ContactSection() {
                         </div>
 
                         <Button type="submit" variant="kybernAccent" className="w-full text-base py-6">
-                            Hable con un Arquitecto Lógico
+                            Hable con un Arquitecto Logic-First
                         </Button>
                     </form>
                 </motion.div>

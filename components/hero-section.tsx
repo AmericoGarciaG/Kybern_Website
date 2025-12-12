@@ -18,7 +18,7 @@ export function HeroSection() {
                     transition={{ duration: 0.5 }}
                 >
                     <Badge variant="kybern" className="mb-8 px-4 py-1 text-sm tracking-wide uppercase">
-                        Kabern AI Corp.
+                        Kybern AI® Firm.
                     </Badge>
                 </motion.div>
 
