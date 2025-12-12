@@ -16,7 +16,7 @@ export default function IngenieriaCognitivaPage() {
             {/* HERO SECTION */}
             <section className="relative pt-32 pb-20 overflow-hidden bg-slate-50">
                 <div className="absolute inset-0 z-0 bg-[linear-gradient(to_right,#f1f5f9_1px,transparent_1px),linear-gradient(to_bottom,#f1f5f9_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]" />
-                
+
                 <div className="container relative z-10 px-6 mx-auto text-center flex flex-col items-center max-w-4xl">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -174,17 +174,17 @@ export default function IngenieriaCognitivaPage() {
             {/* LEVELS SECTION */}
             <section className="py-24 bg-slate-950 text-white relative overflow-hidden">
                 <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-slate-900 to-slate-950 opacity-50" />
-                
+
                 <div className="container relative z-10 px-6 mx-auto">
                     <div className="text-center mb-20">
                         <h2 className="text-3xl md:text-4xl font-bold mb-4">Niveles Evolutivos</h2>
-                        <p className="text-slate-400 max-w-2xl mx-auto">No buscamos usuarios que "chateen" con la IA. Formamos operadores que orquestan sistemas.</p>
+                        <p className="text-slate-400 max-w-2xl mx-auto">No buscamos usuarios que &quot;chateen&quot; con la IA. Formamos operadores que orquestan sistemas.</p>
                     </div>
 
                     <div className="max-w-4xl mx-auto space-y-12 relative before:absolute before:left-[19px] md:before:left-1/2 before:top-0 before:bottom-0 before:w-0.5 before:bg-slate-800 before:-translate-x-1/2">
-                        
+
                         {/* Level 1 */}
-                        <motion.div 
+                        <motion.div
                             initial={{ opacity: 0, x: -20 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
@@ -192,7 +192,7 @@ export default function IngenieriaCognitivaPage() {
                         >
                             <div className="hidden md:block w-[45%] text-right pr-12">
                                 <h3 className="text-2xl font-bold text-green-400">Nivel 1: La Génesis</h3>
-                                <p className="text-slate-400 mt-2">Del uso pasivo al activo. Romper la inercia del "no sé qué preguntar" y establecer la primera relación productiva con el modelo.</p>
+                                <p className="text-slate-400 mt-2">Del uso pasivo al activo. Romper la inercia del &quot;no sé qué preguntar&quot; y establecer la primera relación productiva con el modelo.</p>
                             </div>
                             <div className="absolute left-0 md:left-1/2 w-10 h-10 bg-slate-900 border-4 border-green-500 rounded-full -translate-x-1/2 flex items-center justify-center z-10 shadow-[0_0_20px_rgba(34,197,94,0.5)]">
                                 <Lightbulb className="w-4 h-4 text-green-500" />
@@ -202,9 +202,9 @@ export default function IngenieriaCognitivaPage() {
                                     <h3 className="text-xl font-bold text-green-400">Nivel 1: La Génesis</h3>
                                 </div>
                                 <div className="bg-slate-900/50 p-6 rounded-xl border border-slate-800">
-                                    <p className="text-sm text-slate-300 md:hidden">Del uso pasivo al activo. Romper la inercia del "no sé qué preguntar".</p>
+                                    <p className="text-sm text-slate-300 md:hidden">Del uso pasivo al activo. Romper la inercia del &quot;no sé qué preguntar&quot;.</p>
                                     <ul className="text-sm text-slate-400 space-y-2 mt-2 md:mt-0">
-                                        <li className="flex items-center gap-2"><div className="w-1.5 h-1.5 bg-green-500 rounded-full" />Superar el "Blank Page Syndrome"</li>
+                                        <li className="flex items-center gap-2"><div className="w-1.5 h-1.5 bg-green-500 rounded-full" />Superar el &quot;Blank Page Syndrome&quot;</li>
                                         <li className="flex items-center gap-2"><div className="w-1.5 h-1.5 bg-green-500 rounded-full" />Prompting Básico Estructurado</li>
                                     </ul>
                                 </div>
@@ -212,7 +212,7 @@ export default function IngenieriaCognitivaPage() {
                         </motion.div>
 
                         {/* Level 2 */}
-                        <motion.div 
+                        <motion.div
                             initial={{ opacity: 0, x: 20 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
@@ -224,8 +224,8 @@ export default function IngenieriaCognitivaPage() {
                                     <h3 className="text-xl font-bold text-blue-400">Nivel 2: El Diálogo Maestro</h3>
                                 </div>
                                 <div className="bg-slate-900/50 p-6 rounded-xl border border-slate-800 text-right md:text-left">
-                                     <p className="text-sm text-slate-300 md:hidden text-left">Ingeniería de Contexto. Aprender a alimentar al modelo para obtener resultados específicos.</p>
-                                     <ul className="text-sm text-slate-400 space-y-2 mt-2 md:mt-0 inline-block text-left">
+                                    <p className="text-sm text-slate-300 md:hidden text-left">Ingeniería de Contexto. Aprender a alimentar al modelo para obtener resultados específicos.</p>
+                                    <ul className="text-sm text-slate-400 space-y-2 mt-2 md:mt-0 inline-block text-left">
                                         <li className="flex items-center gap-2"><div className="w-1.5 h-1.5 bg-blue-500 rounded-full" />Few-Shot Prompting</li>
                                         <li className="flex items-center gap-2"><div className="w-1.5 h-1.5 bg-blue-500 rounded-full" />Chain of Thought (CoT)</li>
                                     </ul>
@@ -241,7 +241,7 @@ export default function IngenieriaCognitivaPage() {
                         </motion.div>
 
                         {/* Level 3 */}
-                        <motion.div 
+                        <motion.div
                             initial={{ opacity: 0, x: -20 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
@@ -272,8 +272,8 @@ export default function IngenieriaCognitivaPage() {
                 </div>
             </section>
 
-             {/* CTA SECTION */}
-             <section className="py-24 bg-slate-50">
+            {/* CTA SECTION */}
+            <section className="py-24 bg-slate-50">
                 <div className="container px-6 mx-auto text-center max-w-3xl">
                     <motion.div
                         initial={{ opacity: 0, scale: 0.95 }}
