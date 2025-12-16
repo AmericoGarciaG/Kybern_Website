@@ -9,9 +9,9 @@ export function MethodologySection() {
             <div className="container px-6 mx-auto">
                 <div className="text-center mb-20">
                     <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-                        El fin de la Caja Negra Ingobernable
+                        Estándar de Ingeniería: DBBD + DirGen
                     </h2>
-                    <p className="text-xl text-slate-600">Arquitectura propietaria de dos niveles.</p>
+                    <p className="text-xl text-slate-600">Metodología para software de misión crítica.</p>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto relative">
@@ -35,7 +35,7 @@ export function MethodologySection() {
                             <h3 className="text-2xl font-bold text-slate-900 mb-2">DBBD <span className="text-slate-400 font-normal text-lg ml-2">(Driven Black Box Development)</span></h3>
                             <h4 className="text-lg font-semibold text-green-600 mb-4">Integridad Lógica</h4>
                             <p className="text-slate-600 leading-relaxed">
-                                El negocio nunca cede el control. El &apos;Logic Book&apos; es la Constitución inmutable. La IA obedece al libro, asegurando que la lógica de negocio permanezca humana y explícita.
+                                Desacoplamos la lógica de negocio de la implementación técnica. Sus reglas operativas quedan blindadas en un &apos;Libro de Lógica&apos; que la IA debe obedecer estrictamente.
                             </p>
                         </div>
                     </motion.div>
@@ -56,7 +56,7 @@ export function MethodologySection() {
                             <h3 className="text-2xl font-bold text-slate-900 mb-2">DirGen <span className="text-slate-400 font-normal text-lg ml-2">(Directed Generative SE)</span></h3>
                             <h4 className="text-lg font-semibold text-green-600 mb-4">Calidad Industrial</h4>
                             <p className="text-slate-600 leading-relaxed">
-                                Gobernanza como Código. Ninguna línea generada por IA llega a producción sin cruzar Quality Gates automatizados y trazabilidad forense.
+                                Aplicamos las mejores prácticas de DevOps y CI/CD a la IA. Garantizamos trazabilidad, seguridad y escalabilidad para sistemas transaccionales.
                             </p>
                         </div>
                     </motion.div>

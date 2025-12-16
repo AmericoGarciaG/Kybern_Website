@@ -28,9 +28,9 @@ export function HeroSection() {
                     transition={{ duration: 0.5, delay: 0.1 }}
                     className="text-5xl md:text-7xl font-bold tracking-tight text-slate-900 mb-6 leading-[1.1]"
                 >
-                    Arquitectura, Ingeniería <br className="hidden md:block" />
+                    Arquitectura e Ingeniería de IA <br className="hidden md:block" />
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 to-slate-700">
-                        y Gobierno de IA.
+                        para la Automatización de Procesos Críticos.
                     </span>
                 </motion.h1>
 
@@ -40,7 +40,7 @@ export function HeroSection() {
                     transition={{ duration: 0.5, delay: 0.2 }}
                     className="text-lg md:text-xl text-slate-600 mb-10 max-w-3xl leading-relaxed"
                 >
-                    Construimos ecosistemas de IA con solvencia técnica y gobernanza absoluta. Transformamos la fuerza bruta de los LLMs en precisión industrial, eliminando la deuda técnica del &quot;Vibe Coding&quot;.
+                    Llevamos la Inteligencia Artificial de la experimentación a la operación real. Diseñamos sistemas que automatizan flujos de trabajo, optimizan operaciones financieras y escalan la eficiencia empresarial con gobernanza absoluta.
                 </motion.p>
 
                 <motion.div
@@ -50,12 +50,12 @@ export function HeroSection() {
                     className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto"
                 >
                     <Button variant="kybernPrimary" size="lg" className="h-12 px-8 text-base group">
-                        Descubra el Estándar Kybern
+                        Ver Soluciones de Automatización
                         <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </Button>
                     <Button variant="kybernOutline" size="lg" className="h-12 px-8 text-base">
                         <Activity className="mr-2 w-4 h-4 text-green-600" />
-                        Audite su Madurez Logic-First
+                        Hable con un Arquitecto
                     </Button>
                 </motion.div>
             </div>

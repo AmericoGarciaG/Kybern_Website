@@ -28,11 +28,11 @@ export function ProblemSection() {
                                 <div className="mx-auto w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4">
                                     <AlertTriangle className="w-6 h-6 text-red-600" />
                                 </div>
-                                <CardTitle className="text-xl text-slate-800">El Camino del Caos</CardTitle>
+                                <CardTitle className="text-xl text-slate-800">Deuda Técnica y Procesos Manuales</CardTitle>
                             </CardHeader>
                             <CardContent className="text-center">
                                 <p className="text-slate-600 leading-relaxed">
-                                    La ilusión de velocidad. Al auditar el código, se descubre que incumple las reglas de negocio críticas. El resultado inevitable: <span className="text-slate-900 font-bold">descartar el trabajo de la IA y reescribir manualmente.</span>
+                                    La mayoría de las implementaciones de IA son cajas negras experimentales. Si la IA comete errores, su equipo termina rehaciendo el trabajo manualmente, eliminando el ROI.
                                 </p>
                             </CardContent>
                         </Card>
@@ -53,11 +53,11 @@ export function ProblemSection() {
                                 <div className="mx-auto w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
                                     <ShieldCheck className="w-6 h-6 text-green-600" />
                                 </div>
-                                <CardTitle className="text-xl text-slate-900">El Camino Kybern</CardTitle>
+                                <CardTitle className="text-xl text-slate-900">Ingeniería Determinista</CardTitle>
                             </CardHeader>
                             <CardContent className="text-center">
                                 <p className="text-slate-700 font-medium leading-relaxed">
-                                    Una arquitectura de precisión. Aceptamos la &apos;Caja Negra&apos;, pero la <span className="text-slate-900 font-bold">gobernamos con un Libro de Lógica inmutable.</span> La IA ejecuta la implementación, pero jamás se desvía de la intención del negocio.
+                                    No dejamos las cosas a la suerte. Automatizamos procesos end-to-end garantizando que la IA ejecute sus reglas operativas con precisión inmutable.
                                 </p>
                             </CardContent>
                         </Card>

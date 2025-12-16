@@ -7,34 +7,34 @@ import { Brain, Factory, Cpu, Network, Database } from "lucide-react";
 const solutions = [
     {
         phase: "Fase 1",
-        title: "Talento y Adopción",
+        title: "Automatización Inteligente (IPA)",
         subtitle: "Ingeniería Cognitiva",
-        description: "Instale un nuevo sistema operativo mental. Elevamos a sus equipos de usuarios pasivos a Arquitectos de Sistemas capaces de definir y gobernar la IA, eliminando el miedo operativo.",
+        description: "Modernización de operaciones mediante Agentes Autónomos. Automatizamos conciliación financiera, facturación y flujos administrativos complejos.",
         icon: Brain,
         color: "bg-blue-100 text-blue-600",
         link: "/ingenieria-cognitiva"
     },
     {
         phase: "Fase 2",
-        title: "Fábrica de Software",
+        title: "Sistemas Transaccionales y Predictivos",
         subtitle: "Desarrollo DBBD + DirGen",
-        description: "Transforme su área de TI de taller artesanal a línea de montaje de alta precisión.",
+        description: "Arquitecturas de microservicios y High-Frequency Processing. Modelos de predicción de demanda y detección de fraude en tiempo real.",
         icon: Factory,
         color: "bg-green-100 text-green-600",
     },
     {
         phase: "Fase 3",
-        title: "Soluciones de IA Corporativa",
+        title: "Gestión del Conocimiento (RAG)",
         subtitle: "Activos que no improvisan",
-        description: "Implemente sistemas que obedecen. Desde asistentes con Tasa de Alucinación Cero (RAG Determinista) hasta agentes autónomos que ejecutan procesos complejos bajo reglas de negocio estrictas.",
+        description: "Asistentes corporativos con Tasa de Alucinación Cero. Consultas sobre manuales técnicos y legales con total certeza de la fuente.",
         icon: Cpu,
         color: "bg-purple-100 text-purple-600",
     },
     {
         phase: "Fase 4 y 5",
-        title: "Cimientos",
+        title: "Ingeniería Cognitiva (Formación)",
         subtitle: "Infraestructura y Estrategia",
-        description: "Arquitectura de Datos Cognitiva y Auditoría de Madurez Logic-First.",
+        description: "Transformamos a sus equipos técnicos y de negocio de usuarios pasivos a arquitectos capaces de gobernar sistemas de IA.",
         icon: Database,
         color: "bg-orange-100 text-orange-600",
     },
@@ -46,9 +46,9 @@ export function SolutionsSection() {
             <div className="container px-6 mx-auto">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-                        Ecosistema de Soluciones
+                        Capacidades y Servicios
                     </h2>
-                    <p className="text-xl text-slate-600">De la experimentación a la industrialización.</p>
+                    <p className="text-xl text-slate-600">Soluciones diseñadas para integrarse en su infraestructura.</p>
                 </div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">

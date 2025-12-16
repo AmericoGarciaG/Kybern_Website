@@ -18,10 +18,10 @@ export function ManifestoSection() {
                     transition={{ duration: 0.7 }}
                 >
                     <h2 className="text-3xl md:text-5xl font-bold mb-12 tracking-tight">
-                        El Futuro es Dirigido
+                        Más allá del Hype: Ingeniería Real.
                     </h2>
                     <p className="text-lg md:text-2xl font-light leading-relaxed text-slate-300 font-serif italic">
-                        &quot;Estamos presenciando el fin de la era del programador como &apos;mecanógrafo de código&apos; y el nacimiento del Ingeniero como Director de Sistemas. En Kybern AI, no confundimos la innovación con la improvisación. Somos ingenieros. Creemos que el futuro no pertenece a quien genere más código, sino a quien defina mejor su arquitectura y gobierne la ejecución con precisión absoluta. Bienvenido a la Era de la Arquitectura de Precisión.&quot;
+                        &quot;No somos agencia de marketing vendiendo IA. Somos ingenieros de software con experiencia en sistemas financieros y distribuidos. Entendemos que, en el mundo empresarial, la velocidad no sirve de nada sin precisión, seguridad y retorno de inversión claro.&quot;
                     </p>
                 </motion.div>
             </div>

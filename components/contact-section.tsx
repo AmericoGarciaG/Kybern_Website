@@ -35,10 +35,10 @@ export function ContactSection() {
             <div className="container px-6 mx-auto max-w-3xl">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-                        Recupere el Control de su Futuro Tecnológico
+                        Operacionalice su Estrategia de IA
                     </h2>
                     <p className="text-lg text-slate-600">
-                        Hable con un Arquitecto Logic-First y descubra cómo escalar con verdadera gobernanza.
+                        Si su empresa necesita garantías, no experimentos. Deje de buscar &apos;prompts mágicos&apos; y empiece a exigir arquitectura. Si está listo para la IA de alta ingeniería, hablemos...
                     </p>
                 </div>
 
