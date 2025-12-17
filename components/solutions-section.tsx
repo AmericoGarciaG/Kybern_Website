@@ -2,39 +2,39 @@
 
 import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Brain, Factory, Cpu, Network, Database } from "lucide-react";
+import { Brain, Workflow, Activity, Database } from "lucide-react";
 
 const solutions = [
     {
-        phase: "Fase 1",
-        title: "Automatización Inteligente (IPA)",
-        subtitle: "Ingeniería Cognitiva",
-        description: "Modernización de operaciones mediante Agentes Autónomos. Automatizamos conciliación financiera, facturación y flujos administrativos complejos.",
+        phase: "FASE 1",
+        title: "Ingeniería Cognitiva (Formación)",
+        subtitle: "Instale un nuevo sistema operativo mental.",
+        description: "Transformamos a sus equipos técnicos y de negocio de usuarios pasivos a arquitectos capaces de definir y gobernar sistemas de IA.",
         icon: Brain,
         color: "bg-blue-100 text-blue-600",
         link: "/ingenieria-cognitiva"
     },
     {
-        phase: "Fase 2",
-        title: "Sistemas Transaccionales y Predictivos",
-        subtitle: "Desarrollo DBBD + DirGen",
-        description: "Arquitecturas de microservicios y High-Frequency Processing. Modelos de predicción de demanda y detección de fraude en tiempo real.",
-        icon: Factory,
+        phase: "FASE 2",
+        title: "Automatización Inteligente (IPA)",
+        subtitle: "Modernización de Operaciones.",
+        description: "Agentes Autónomos que automatizan flujos 'end-to-end'. Conciliación financiera, procesamiento de facturas y operaciones administrativas complejas.",
+        icon: Workflow,
         color: "bg-green-100 text-green-600",
     },
     {
-        phase: "Fase 3",
-        title: "Gestión del Conocimiento (RAG)",
-        subtitle: "Activos que no improvisan",
-        description: "Asistentes corporativos con Tasa de Alucinación Cero. Consultas sobre manuales técnicos y legales con total certeza de la fuente.",
-        icon: Cpu,
+        phase: "FASE 3",
+        title: "Sistemas Transaccionales y Predictivos",
+        subtitle: "Arquitectura High-Frequency.",
+        description: "Microservicios y modelos predictivos en tiempo real. Detección de fraude y predicción de demanda sobre infraestructura Cloud-Native segura.",
+        icon: Activity,
         color: "bg-purple-100 text-purple-600",
     },
     {
-        phase: "Fase 4 y 5",
-        title: "Ingeniería Cognitiva (Formación)",
-        subtitle: "Infraestructura y Estrategia",
-        description: "Transformamos a sus equipos técnicos y de negocio de usuarios pasivos a arquitectos capaces de gobernar sistemas de IA.",
+        phase: "FASE 4",
+        title: "Gestión del Conocimiento (RAG)",
+        subtitle: "Certeza y Gobernanza.",
+        description: "Asistentes corporativos con Tasa de Alucinación Cero. Consultas sobre manuales técnicos y legales con total certeza de la fuente.",
         icon: Database,
         color: "bg-orange-100 text-orange-600",
     },

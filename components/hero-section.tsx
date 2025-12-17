@@ -18,7 +18,7 @@ export function HeroSection() {
                     transition={{ duration: 0.5 }}
                 >
                     <Badge variant="kybern" className="mb-8 px-4 py-1 text-sm tracking-wide uppercase">
-                        Kybern AI® Firm.
+                        KYBERN AI® | ENTERPRISE SOLUTIONS
                     </Badge>
                 </motion.div>
 
@@ -26,12 +26,9 @@ export function HeroSection() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.1 }}
-                    className="text-5xl md:text-7xl font-bold tracking-tight text-slate-900 mb-6 leading-[1.1]"
+                    className="text-5xl md:text-6xl font-bold tracking-tight text-slate-900 mb-6 leading-[1.1] text-balance max-w-4xl mx-auto"
                 >
-                    Arquitectura e Ingeniería de IA <br className="hidden md:block" />
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 to-slate-700">
-                        para la Automatización de Procesos Críticos.
-                    </span>
+                    Arquitectura e Ingeniería de IA <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 to-slate-700">para la Automatización de Procesos Críticos.</span>
                 </motion.h1>
 
                 <motion.p
