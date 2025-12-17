@@ -20,11 +20,11 @@ export function Navbar() {
     }, []);
 
     const navLinks = [
-        { name: "Filosofía", href: "#manifesto" },
-        { name: "Metodología", href: "#methodology" },
-        { name: "Soluciones", href: "#solutions" },
+        { name: "Filosofía", href: "/#manifesto" },
+        { name: "Metodología", href: "/#methodology" },
+        { name: "Soluciones", href: "/#solutions" },
         { name: "Formación", href: "/ingenieria-cognitiva" },
-        { name: "Contacto", href: "#contact" },
+        { name: "Contacto", href: "/#contact" },
     ];
 
     return (
