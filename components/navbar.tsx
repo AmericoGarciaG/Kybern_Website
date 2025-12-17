@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -37,9 +38,13 @@ export function Navbar() {
             <div className="container mx-auto px-6 flex items-center justify-between">
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-2 group">
-                    <div className="w-8 h-8 bg-slate-900 rounded-sm flex items-center justify-center text-white font-bold text-lg group-hover:scale-105 transition-transform">
-                        K
-                    </div>
+                    <Image
+                        src="/images/logo-icon.png"
+                        alt="Kybern AI Logo"
+                        width={32}
+                        height={32}
+                        className="w-8 h-8 group-hover:scale-105 transition-transform"
+                    />
                     <span className="text-xl font-bold tracking-tight text-slate-900">
                         Kybern <span className="text-green-600">AI</span>
                     </span>
@@ -83,8 +88,8 @@ export function Navbar() {
                             {link.name}
                         </Link>
                     ))}
-                    <Button variant="kybernPrimary" className="w-full">
-                        Auditoría Logic-First
+                    <Button variant="kybernPrimary" className="w-full" asChild>
+                        <Link href="#contact">Auditoría Logic-First</Link>
                     </Button>
                 </div>
             )}

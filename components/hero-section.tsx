@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Activity } from "lucide-react";
+import Link from "next/link";
 
 export function HeroSection() {
     return (
@@ -46,13 +47,17 @@ export function HeroSection() {
                     transition={{ duration: 0.5, delay: 0.3 }}
                     className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto"
                 >
-                    <Button variant="kybernPrimary" size="lg" className="h-12 px-8 text-base group">
-                        Ver Soluciones de Automatización
-                        <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                    <Button variant="kybernPrimary" size="lg" className="h-12 px-8 text-base group" asChild>
+                        <Link href="#solutions">
+                            Ver Soluciones de Automatización
+                            <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                        </Link>
                     </Button>
-                    <Button variant="kybernOutline" size="lg" className="h-12 px-8 text-base">
-                        <Activity className="mr-2 w-4 h-4 text-green-600" />
-                        Hable con un Arquitecto
+                    <Button variant="kybernOutline" size="lg" className="h-12 px-8 text-base" asChild>
+                        <Link href="#contact">
+                            <Activity className="mr-2 w-4 h-4 text-green-600" />
+                            Hable con un Arquitecto
+                        </Link>
                     </Button>
                 </motion.div>
             </div>
