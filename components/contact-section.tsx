@@ -33,12 +33,12 @@ export function ContactSection() {
     return (
         <section id="contact" className="py-24 bg-white">
             <div className="container px-6 mx-auto max-w-3xl">
-                <div className="text-center mb-12">
+                <div className="text-center mb-12 max-w-3xl mx-auto">
                     <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-                        Operacionalice su Estrategia de IA
+                        Lleve su Estrategia de IA a Producción
                     </h2>
                     <p className="text-lg text-slate-600">
-                        Si su empresa necesita garantías, no experimentos. Deje de buscar &apos;prompts mágicos&apos; y empiece a exigir arquitectura. Si está listo para la IA de alta ingeniería, hablemos...
+                        Garantías, no experimentos. Sustituya la improvisación por una arquitectura de precisión. Hablemos de cómo integrar la IA en sus flujos de trabajo críticos.
                     </p>
                 </div>
 
