@@ -11,9 +11,9 @@ export function Footer() {
                         <Image
                             src="/images/logo-icon.png"
                             alt="Kybern AI Logo"
-                            width={32}
-                            height={32}
-                            className="w-8 h-8 group-hover:scale-105 transition-transform"
+                            width={80}
+                            height={80}
+                            className="w-20 h-20 group-hover:scale-105 transition-transform"
                         />
                         <span className="text-lg font-bold text-white tracking-tight">Kybern <span className="text-green-600">AI</span></span>
                     </Link>

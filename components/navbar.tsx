@@ -23,6 +23,7 @@ export function Navbar() {
         { name: "Filosofía", href: "#manifesto" },
         { name: "Metodología", href: "#methodology" },
         { name: "Soluciones", href: "#solutions" },
+        { name: "Formación", href: "/ingenieria-cognitiva" },
         { name: "Contacto", href: "#contact" },
     ];
 
@@ -41,9 +42,9 @@ export function Navbar() {
                     <Image
                         src="/images/logo-icon.png"
                         alt="Kybern AI Logo"
-                        width={32}
-                        height={32}
-                        className="w-8 h-8 group-hover:scale-105 transition-transform"
+                        width={64}
+                        height={64}
+                        className="w-16 h-16 group-hover:scale-105 transition-transform"
                     />
                     <span className="text-xl font-bold tracking-tight text-slate-900">
                         Kybern <span className="text-green-600">AI</span>
